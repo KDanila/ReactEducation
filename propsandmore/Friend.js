@@ -1,4 +1,8 @@
 class Friend extends React.Component {
+	static defaultProps ={
+		name : 'Unknown',
+		hobbies : ['Unkonwn']
+	}
 	render() {
 		const {name, hobbies} = this.props;
 		return (

@@ -10,6 +10,7 @@ class App extends React.Component {
                     name="Susan"
                     hobbies={['Yelling', 'Fucking', 'Crowling','Interrupting']}
                 />
+                <Friend/>
             </div>
         )
     }
